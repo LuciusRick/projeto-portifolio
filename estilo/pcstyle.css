@@ -18,24 +18,22 @@ main{
     height: 100vh;
 }
 
-section#telefone {
+section#pc {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 427px;
-    width: 211px;
-    background:url(../imagens/frame-pc.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    height: 400px;
+    width: 550px;
+    background:url(../imagens/pc-frame.png) no-repeat;
 }
 
 iframe.tela{
     position: relative;
-    top: 56px;
-    left:17px;
-    width: 179px;
-    height: 320px;
+    top:20px ;
+    left:51px;
+    width: 400px;
+    height: 268px;
 }
 
 #social-media{
@@ -60,4 +58,12 @@ section#social-media img:hover {
 
 img#moa{
     background-color: white;
+}
+
+.button{
+    background-color:gray;
+}
+
+img.button{
+    width: 20px;
 }
