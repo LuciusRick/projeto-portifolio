@@ -40,12 +40,13 @@ iframe.tela{
 
 #social-media{
     text-align: right;
+    
 }
 
 section#social-media img{
     width: 40px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 25%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
     box-sizing: border-box;
 }
@@ -55,6 +56,8 @@ section#social-media img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.918);
     transform: translate(-3px,-3px);
     transition: transform .5s, border .3s;
+}
 
-
+img#moa{
+    background-color: white;
 }

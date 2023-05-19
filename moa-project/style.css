@@ -11,6 +11,11 @@
     --color05:#131515;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +35,7 @@ header{
     background-color:var(--color05);
     text-shadow: 1px 1px 2px gray;
     position: sticky;
-    top: 0px;
+    top: -1px;
 }
 
 header img{
@@ -79,21 +84,29 @@ main{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .box{
-    max-width: 300px;
     min-width: 150px;
-    background-color: #b4ffda;
-    border-radius:10px;
-    text-shadow: 0px 0px 3px rgb(255, 255, 255) ;
-    box-shadow: 10px 10px 0px black;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #029c4f;
+    width: 30vw;
+    border-radius: 15%;
+    
+}
+
+.box > p{
+    padding: 10px;
 }
 
 .box img{
-    padding-top:20px;
-    width: 40%;
+    padding: 10px;
+    width: 30vh;
+
 }
 
 
